@@ -1,0 +1,18 @@
+>TPC TP3
+Converter o PR.xml para PR.html com indice
+<td width=30%> para a coluna
+
+Para styling vamos usar XSLT
+
+titulo -> h1
+autor -> h2
+data -> h3
+quadra -> p
+verso -> text br
+nome -> b
+lugar -> i
+
+
+> poisos.xml
+
+|	ALOJAMENTO	|	lOCAL	|	CONTACTO	|	WEB	|

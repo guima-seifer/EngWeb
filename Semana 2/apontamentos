@@ -1,0 +1,70 @@
+Operadores de sequência
+
+,	a,b		a seguido de b
+|	a|b		A ou B
+
+Operadores de ocorrência
+
+a?	0 ou uma vez a
+a*	0 ou mais vezes
+a+	1 ou mais vezes
+
+PCDATA -> texto livre
+
+www.di.uminho.pt/~jcr/XML/Cursos/ped2008/fichas
+
+Sacar o LAMP
+
+TPCs Eng Web
+
+--PR.dtd
+
+
+www.di.uminho.pt/~jcr/XML/dicac/xmldocs/PR.htm
+4 blocos diferentes
+1 - metadados
+2 - workteam - falta o numero do aluno
+3 - abstract - negrito, italicos definidos
+4 - deliverables (resultados) - lista de ficheiros, links
+
+-- tp2.xml (bootstrap means reflexivo)
+
+-- criar dtd que valide isto
+www.di.uminho.pt/~jcr/XML/dicac/xmldocs/arq.xml
+
+
+jcr@di.uminho.pt
+Subject: EngWeb::A70012::TP2
+
+--XPath exercise
+
+Exercício queries
+
+1.
+/arq/doc/tit
+//tit
+/arq//tit
+
+2.
+/arq/doc/prov
+//prov
+
+3.
+/arq/doc//file/@t
+//file/@t
+
+Predicados
+aceder ao primeiro arquivo ex:
+/arq/doc[1]
+//doc.[last()]
+
+titulos das musicas do arquivo sonoro que tenham .mp3 associado
+
+//tit[..//file/@t="mp3"]
+
+ex poema3.xml
+http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/poema.xml
+1- //quadra[last()]/verso[3]
+2- //nome
+3- //terno[2]/verso
+4- //(nome|lugar)[starts-with(.,'L')]

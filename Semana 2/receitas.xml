@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE livro-de-receitas SYSTEM "receitas.dtd">
+<livro-de-receitas>
+    <abertura>
+        <autor></autor>
+        <data></data>
+        <local></local>
+    </abertura>
+    <receitas>
+        <receita língua="">
+            <título></título>
+            <ingredientes>
+                <ingrediente></ingrediente>
+            </ingredientes>
+            <preparação>
+                <instrução></instrução>
+            </preparação>
+        </receita>
+    </receitas>
+</livro-de-receitas>

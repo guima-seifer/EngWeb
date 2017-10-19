@@ -1,0 +1,87 @@
+
+            /* Clear the margin from h1, h2 and sections */
+            header h1,
+            header h2,
+            section p {
+                margin: 0;
+            }
+
+            /*Increased margin for dt*/
+            section dt{
+                margin-top: 5px;
+            }
+
+
+            /*  Apply an overflow setting to the containers header and section */
+            header,
+            section {
+                overflow: auto;
+            }
+
+            /* Add border or padding to the containers to stop the child element 
+            margin from exceeding the container's boundary */
+            header,
+            section {
+                padding: 1px;
+            }
+
+            /* Align the images from foto-gallery */
+            .imgwrapper {
+                display: flex;
+                justify-content:space-between;
+            }
+
+
+			.container {
+			  padding-right: 15px;
+			  padding-left: 15px;
+			  margin-right: auto;
+			  margin-left: auto;
+			}
+			@media (min-width: 768px) {
+			  .container {
+			    width: 750px;
+			  }
+			}
+			@media (min-width: 992px) {
+			  .container {
+			    width: 970px;
+			  }
+			}
+			@media (min-width: 1200px) {
+			  .container {
+			    width: 1170px;
+			  }
+			}
+
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+
+            .capa {
+                background-image: url("Bluefin-big.jpg"); /* The image used */
+                height: 100%; /* Full height */
+                background-position: center; /* Center and scale the image nicely */
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            /* The navigation bar */
+            .navbar {
+                overflow: hidden;
+                background-color: #009688;
+                position: fixed; /* Set the navbar to fixed position */
+                top: 0; /* Position the navbar at the top of the page */
+                width: 100%; /* Full width */
+            }
+
+            /* Links inside the navbar */
+            .navbar a {
+                float: left;
+                display: block;
+                color: #FFFFFF;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }

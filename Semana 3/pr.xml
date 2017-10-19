@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE pr SYSTEM "PR.dtd">
+
+<pr>
+    <meta>
+        <keyname>TP3</keyname>
+        <title>Trabalho Prático Semana 3</title>
+        <bdate>Setembro de 2017</bdate>
+        <edate>Setembro de 2017</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>    
+        </supervisor>
+    </meta>
+    
+    <workteam>
+        <member id="a1">
+            <name>Fernando Guimarães</name>
+            <email>fernando.b.v.guimaraes@gmail.com</email>
+            <id>70012</id>
+        </member>
+    </workteam>
+
+
+    <abstract>
+        <p>
+Projeção de um documento <ackro><short>html</short></ackro> para o formato <ackro><short>DRD</short></ackro>. 
+            Para realização deste exercício, foi necessário uma declaração de conteúdo misto 
+            para declarar a estrutura de texto com as suas diferentes ênfases, <i>itálico</i>,
+            <b>negrito</b> e <ackro><short>ACKRO</short></ackro>.
+        </p>
+        <p> Para poder efetuar a conversão do ficheiro <i>arq</i>.<ackro><short>XML</short></ackro> para o formato .<ackro><short>DTD</short></ackro> é utilizada uma ferramenta do <b>Oxygen</b>.
+            Tools -> Generate/Convert Schema, seleciona-se o ficheiro <ackro><short>XML</short></ackro> em questão como <i>input</i> e define-se o nome do <i>output</i> <ackro><short>DTD</short></ackro> resultante.
+        </p>
+    </abstract>
+ 
+       <deliverables>
+           <deliverable url="PR.dtd">Project Record .DTD file</deliverable>
+           <deliverable url="PR.xml">Project Record .XML file</deliverable>           
+       </deliverables>
+</pr>

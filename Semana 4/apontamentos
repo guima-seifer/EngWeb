@@ -1,0 +1,28 @@
+1. Criar uma lista de titulos
+2. Transformar em lista de links
+3. Acrescentar o conteúdo
+
+|	Indice de Historias		|		Conteúdo		|
+	1.....					 	<h3>Titulo</h3>
+	2....
+	3.....
+
+
+>arq.xml
+
+1. Lista de Concelhos
+a) lista ordenada alfabeticamente
+b) sem repetiçoes
+
+2. Acrescentar a cada item, sublista de arquesits (campo IDENTI)
+a)ordenado alfabeticamente
+
+3. Links e Conteúdo
+
+
+TP4 (TP4.XML, TP4.HTML PR.XSL, arq-son-evo.xml, arq-son.xsl, arq-son.html).zip
+
+Lista de provincias
+Sublistas de musicas (por provincia)
+
+Enviar .zip

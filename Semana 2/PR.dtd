@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT projects (record, headings)+ >
+<!ELEMENT record (header, abstract, deliverables, workteam, date) >
+
+<!ELEMENT header (key_name, title, subtitle?, begin_date, end_date, supervisor) >
+<!ELEMENT key_name (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT subtitle (#PCDATA) >
+<!ELEMENT begin_date (#PCDATA) >
+<!ELEMENT end_date (#PCDATA) >
+<!ELEMENT supervisor (#PCDATA) >
+
+<!ELEMENT abstract (paragraph)+ >
+<!ELEMENT  paragraph (#PCDATA|bold|italic|acron)* >
+<!ELEMENT bold (#PCDATA) >
+<!ELEMENT italic (#PCDATA) >
+<!ELEMENT acron (#PCDATA) >
+
+<!ELEMENT deliverables (deliverable)+ >
+<!ELEMENT deliverable (#PCDATA) >
+<!ATTLIST deliverable path CDATA #IMPLIED >
+
+<!ELEMENT workteam (entry)+ >
+<!ELEMENT entry (name, email) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ATTLIST entry number ID #REQUIRED >
+
+<!ELEMENT date (#PCDATA) >

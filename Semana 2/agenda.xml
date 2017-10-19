@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+    <entrada id="e1" tipo="">
+        <nome></nome>
+        <email></email>
+        <telefone></telefone>
+    </entrada>
+    <grupo id="g1">
+       <referência refent="e1"/>
+    </grupo>
+</agenda>

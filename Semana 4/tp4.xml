@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+
+<!DOCTYPE pr SYSTEM "PR.dtd">
+
+<pr>
+    <meta>
+        <keyname>EngWeb::A70012::TP4</keyname>
+        <title>Trabalho Prático Semana 4</title>
+        <bdate>Setembro de 2017</bdate>
+        <edate>Setembro de 2017</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>    
+        </supervisor>
+    </meta>
+    
+    <workteam>
+        <member id="a1">
+            <name>Fernando Guimarães</name>
+            <email>fernando.b.v.guimaraes@gmail.com</email>
+            <id>70012</id>
+        </member>
+    </workteam>
+
+
+    <abstract>
+        <p>
+            Geração de páginas <ackro><short>Html</short> <extended>HyperText Markup Language</extended></ackro> para projeção dos documentos: <i>Project Record</i>, Trabalho Prático Semana 4 e para o Arquivo de Músicas Tradicionais
+            a partir de dados <ackro><short>XML</short><extended>Extensible Markup Language</extended></ackro> através da liguagem de transformação <ackro><short>XSL</short><extended>Extensible Stylesheet Language</extended></ackro>.
+            Criação e população de listas, com referências <ackro><short>html</short></ackro>, <i>queries</i> <b>XPath</b> para ordenação e organização destas mesmas listas.
+            
+        </p>
+        <p></p>
+    </abstract>
+ 
+       <deliverables>
+           <deliverable url="./arq-son-EVO.xml"> Arquivo de Música tradicionais (XML)</deliverable>  
+           <deliverable url="./arq-son-EVO.xsl">Arquivo de Música tradicionais (XSL)</deliverable>           
+           <deliverable url="./musicas.html">Arquivo de Música tradicionais (HTML)</deliverable>           
+           <deliverable url="./tp4.xml">Project Record 4 (XML)</deliverable>      
+           <deliverable url="./tp4.html">Project Record 4 (HTML)</deliverable>
+       </deliverables>
+</pr>

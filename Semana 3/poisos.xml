@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<poisos>
+  <poiso>
+    <desc>Solar dos Pinheiros</desc>
+    <local>Vila Moura - Algarve</local>
+    <telefone>+289 380124</telefone>
+    <telefone>+91 9868126</telefone>
+  </poiso>
+  <poiso>
+    <desc>Horta dos Torrejais</desc>
+    <local>Moura - Alentejo</local>
+    <xref href="http://www.torrejais.emoura.com/pt/index.html"/>
+  </poiso>
+  <poiso>
+    <desc>Herdade do Touril</desc>
+    <local>Zambujeira do Mar - Alentejo</local>
+    <xref href="http://www.touril.pt"/>
+  </poiso>
+  <poiso>
+    <desc>Monte Alerta</desc>
+    <local>Monsaraz</local>
+    <xref href="http://www.montealerta.pt/"/>
+  </poiso>
+  <poiso>
+    <desc>Monte das Galhanas</desc>
+    <local>Alandroal</local>
+    <xref href="http://www.alentejodigital.pt/galhanas/m.htm"/>
+    <telefone>268 459 100</telefone>
+    <telefone>963 355 237</telefone>
+  </poiso>
+  <poiso>
+    <desc>Herdade de Batepé</desc>
+    <local>Montemor-o-Novo</local>
+    <xref href="http://www.batepe.com/1pt/default.htm"/>
+  </poiso>
+  <poiso>
+    <desc>Quinta do Crestelo</desc>
+    <local>Seia</local>
+    <xref href="http://www.quintadocrestelo.pt/"/>
+    <telefone>+351 238 320 050</telefone>
+  </poiso>
+  <poiso>
+    <desc>Quinta do Barrieiro</desc>
+    <local>Marvão - Alentejo</local>
+    <xref href="http://www.quintadocrestelo.pt/"/>
+    <telefone>+351 245 964 308</telefone>
+  </poiso>
+</poisos>

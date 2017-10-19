@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projects SYSTEM "../Semana 3/PR.dtd">
+<pr>
+    
+        <header>
+            <key_name>TP2</key_name>
+            <title>Trabalho Prático Semana 2</title>
+            <subtitle></subtitle>
+            <begin_date>Setembro de 2017</begin_date>
+            <end_date>Setembro de 2017</end_date>
+            <supervisor>José Carlos Ramalho</supervisor>
+        </header>
+        <abstract>
+            <paragraph>
+              Projeção de um documento <acron>html</acron> para o formato <acron>DTD</acron>. 
+                Para realização deste exercício, foi necessário uma declaração de conteúdo misto 
+                para declarar a estrutura de texto com as suas diferentes ênfases, <italic>itálico</italic>,
+                <bold>negrito</bold> e <acron>ACRONIMOS</acron>.
+                           
+            </paragraph>
+            <paragraph> Para poder efetuar a conversão do ficheiro <italic>arq</italic>.<acron>XML</acron> para o formato .<acron>DTD</acron> é utilizada uma ferramenta do <bold>Oxygen</bold>.
+                Tools -> Generate/Convert Schema, seleciona-se o ficheiro <acron>XML</acron> em questão como <italic>input</italic> e define-se o nome do <italic>output</italic> <acron>DTD</acron> resultante.
+            </paragraph>
+        </abstract>
+        <deliverables>
+            <deliverable path="./PR.dtd">
+                Project Record .DTD file
+              </deliverable>
+            <deliverable path="./TP2.xml">
+                TP2 .XML file
+            </deliverable>
+            <deliverable path="./arq.dtd">
+                Converted arq.xml to dtd
+            </deliverable>
+        </deliverables>
+        
+        <workteam>
+            <entry number="a70012">
+                <name>Fernando Guimarães</name>
+                <email>fernando.b.v.guimaraes@gmail.com</email>
+            </entry>
+        </workteam>
+        <date>24-09-2017</date>
+    
+    
+</pr>
