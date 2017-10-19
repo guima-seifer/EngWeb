@@ -30,10 +30,6 @@
                                     </xsl:apply-templates>
                                 </ol>
                             </td>
-                            <td>
-                                <h2>Cultura Musical Portuguesa</h2>
-                                <xsl:apply-templates mode="conteudo"></xsl:apply-templates>
-                            </td>
                         </tr>
                         
                     </table>
