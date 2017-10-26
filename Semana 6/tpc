@@ -1,0 +1,19 @@
+criar uma mini app web que simule uma maquina de calcular.
+
+tem :
+input 1 e input 2
+lista de operaçoes com dropdown, {'+' ; '-' : '*' ; '/'}
+
+GET que se vai dar resposta:
+se url localhost:5555/in
+> responde com formulario
+se url localhost:5555/calc?op1=12&op2=42$op=soma
+> responde com html
+ex: "12 + 42 = 54" Com hiperligação em baixo "Novo Cálculo"
+
+POST
+Se url = ../calc
+
+EXTRA
+1-No cliente garantir que op1 e op2 tem numeros
+2-Se a op for divisão op2 não pode ser 0

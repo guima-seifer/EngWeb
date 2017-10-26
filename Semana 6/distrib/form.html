@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>O meu primeiro formulário</title>
+</head>
+<body>
+<h3>Registo de aluno</h3>
+
+<form action="/processaForm" method="post">
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" size="75">
+        <br/>
+        <label for="morada">Morada:</label>
+        <input type="text" name="morada" id="morada" size="150">
+        <br/>
+    </fieldset>
+    <fieldset>
+        <legend>Dados académicos</legend>
+        <label for="curso">Curso:</label>
+        <input type="text" name="curso" id="curso">
+        <br/>
+        <h4>Desportos que pratica</h4>
+        <label for="corrida">Corrida: </label>
+        <input type="checkbox" name="desporto" id="corrida" value="corrida"/>
+        <label for="xadrez">Xadrez: </label>
+        <input type="checkbox" name="desporto" id="xadrez" value="xadrez"/>
+        <label for="judo">Judo: </label>
+        <input type="checkbox" name="desporto" id="judo" value="judo"/>
+        <label for="futebol">Futebol: </label>
+        <input type="checkbox" name="desporto" id="futebol" value="futebol"/>
+    </fieldset>
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>

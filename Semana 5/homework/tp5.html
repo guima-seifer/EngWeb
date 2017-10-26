@@ -1,0 +1,85 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Trabalho Prático Semana 5</title>
+      <meta charset="UTF-8">
+   </head>
+   <body>
+      <h1 style="text-align:center;">Project Record</h1>
+      <hr>
+      <table width="100%">
+         <tr>
+            <td width="50%"><b>KEY NAME:</b>EngWeb::A70012::TP5<br></td>
+            <td width="50%"><b>BEGIN DATE:</b>Outubro de 2017<br></td>
+         </tr>
+         <tr>
+            <td width="50%"><b>TITLE:</b>Trabalho Prático Semana 5<br></td>
+            <td width="50%"><b>END DATE:</b>Outubro de 2017<br></td>
+         </tr>
+         <tr>
+            <td width="50%"><b>SUBTITLE:</b><br></td>
+            <td width="50%"><b>SUPERVISOR:</b>
+               José Carlos Ramalho    
+               <br></td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <h2>Workteam</h2>
+      <ol>
+         
+         <li>Fernando Guimarães<span> -
+               <a href="">fernando.b.v.guimaraes@gmail.com</a>
+               - 70012</span></li>
+         
+      </ol>
+      <hr>
+      <h2>Abstract</h2>
+      
+      <p>
+         Para gerar páginas de forma numerada é necessário ter em consideração que as variáveis
+         no ambiente  <span style="text-transform: uppercase;">XSL</span><b>
+            - Extensible Stylesheet Language -
+            </b> são imutáveis. Para conseguir associar uma página <span style="text-transform: uppercase;">Html</span><b>
+            - HyperText Markup Language -
+            </b> a uma entrada <span style="background-color: #e6e6e6">//doc</span> associa-se a variável à <b>position()</b> do nó na árvore xml. 
+         Esta associação está embrulhada num elemento <span style="background-color: #e6e6e6">xml: for-each</span> que permite aplicar o mesmo template a todos os nós selecionados, existindo uma variável
+         "nova" a cada iteração do ciclo com o valor correspondente à posição na árvore.
+         
+      </p>
+      
+      
+      <p>Para executar o servidor <b>nodejs</b>:
+         Abrir o terminal na diretoria <span style="background-color: #e6e6e6">homework</span> e executar o comando <span style="background-color: #e6e6e6">node servidor.js&amp;</span>;
+         Posteriormente, assim que o <i>daemon</i> estiver a correr, deve-se indicar o seguinte endereço no browser, <b>localhost:7777/<i>XXX</i></b>  em que <b><i>XXX</i></b> corresponde a um valor entre <b>1 e 448</b> - este intervalo é o número de páginas  <span style="text-transform: uppercase;">Html</span> geradas para o website do exercício; 
+         
+      </p>
+      
+      
+      <p>Esta solução não permite a utilização das funcionalidades "Anterior" e "Seguinte"
+         ou até mesmo o "Índice".
+      </p>
+      
+      <hr>
+      <hr>
+      <h2>Deliverables</h2>
+      <ul>
+         
+         <li><a href="./arq-son-EVO.xml"> Arquivo de Música tradicionais (XML)</a></li>  
+         
+         <li><a href="./arq-son-EVO.xsl">Arquivo de Música tradicionais (XSL)</a></li>           
+         
+         <li><a href="./tp5.xml">Document Type Definition do Project Record 5 (DTD)</a></li>
+         
+         <li><a href="./tp5.xml">Project Record 5 (XML)</a></li>      
+         
+         <li><a href="./tp5.html">Project Record 5 (HTML)</a></li>
+         
+         <li><a href="./website">Pasta com Arquivos Sonoros</a></li>
+         
+         <li><a href="./server.js">Servidor NodeJS (JS)</a></li>
+         
+      </ul>
+      <hr>
+   </body>
+</html>

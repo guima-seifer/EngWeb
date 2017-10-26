@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+
+<!DOCTYPE pr SYSTEM "PR.dtd">
+
+<pr>
+    <meta>
+        <keyname>EngWeb::A70012::TP5</keyname>
+        <title>Trabalho Prático Semana 5</title>
+        <bdate>Outubro de 2017</bdate>
+        <edate>Outubro de 2017</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>    
+        </supervisor>
+    </meta>
+    
+    <workteam>
+        <member id="a1">
+            <name>Fernando Guimarães</name>
+            <email>fernando.b.v.guimaraes@gmail.com</email>
+            <id>70012</id>
+        </member>
+    </workteam>
+
+
+    <abstract>
+        <p>
+            Para gerar páginas de forma numerada é necessário ter em consideração que as variáveis no ambiente  <ackro><short>XSL</short><extended>Extensible Stylesheet Language</extended></ackro> são imutáveis. Para conseguir associar uma página <ackro><short>Html</short> <extended>HyperText Markup Language</extended></ackro> a uma entrada <code>//doc</code> associa-se a variável à <b>position()</b> do nó na árvore xml. 
+        Esta associação está embrulhada num elemento <code>xml: for-each</code> que permite aplicar o mesmo template a todos os nós selecionados, existindo uma variável "nova" a cada iteração do ciclo com o valor correspondente à posição na árvore.
+        </p>
+            
+        <p>Para executar o servidor <b>nodejs</b>:
+            Abrir o terminal na diretoria <code>homework</code> e executar o comando <code>node servidor.js&amp;</code>;
+            Posteriormente, assim que o <i>daemon</i> estiver a correr, deve-se indicar o seguinte endereço no browser, <b>localhost:7777/<i>XXX</i></b>  em que <b><i>XXX</i></b> corresponde a um valor entre <b>1 e 448</b> - este intervalo é o número de páginas  <ackro><short>Html</short></ackro> geradas para o website do exercício; 
+            </p>
+        
+       <p>Esta solução não permite a utilização das funcionalidades "Anterior" e "Seguinte" ou até mesmo o "Índice".</p>
+    </abstract>
+ 
+       <deliverables>
+           <deliverable url="./arq-son-EVO.xml"> Arquivo de Música tradicionais (XML)</deliverable>  
+           <deliverable url="./arq-son-EVO.xsl">Arquivo de Música tradicionais (XSL)</deliverable>           
+           <deliverable url="./tp5.xml">Document Type Definition do Project Record 5 (DTD)</deliverable>
+           <deliverable url="./tp5.xml">Project Record 5 (XML)</deliverable>      
+           <deliverable url="./tp5.html">Project Record 5 (HTML)</deliverable>
+           <deliverable url="./website">Pasta com Arquivos Sonoros</deliverable>
+           <deliverable url="./server.js">Servidor NodeJS (JS)</deliverable>
+       </deliverables>
+</pr>
